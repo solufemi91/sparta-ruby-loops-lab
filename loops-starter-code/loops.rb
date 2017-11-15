@@ -1,6 +1,6 @@
 # return an array of reversed words
 def reverse_array_of_strings words
-  array_reversed = words.map do |i|
+  words.map do |i|
     i.reverse
   end
 end
